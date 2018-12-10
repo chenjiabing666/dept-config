@@ -1,0 +1,8 @@
+server:
+  port: 9001
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka  # eureka的暴露地址，直接注册
+    register-with-eureka: false
