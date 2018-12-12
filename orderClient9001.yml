@@ -1,3 +1,8 @@
 server:
   port: 9001
+  
+person:
+  name: chenjaibing
+  age: 22
+
 
